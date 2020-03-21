@@ -1,0 +1,19 @@
+  /* --------------------------------------- */
+  table {
+    overflow: auto;
+  }
+  table tbody tr {
+    transition: all 0.4s;
+  }
+  table tbody tr:hover {
+    background-color: rgb(82, 81, 81) !important;
+    color: rgb(231, 227, 227);
+  }
+
+  table tbody tr td .fa-times {
+    color : #dc3545;
+    transition: all 0.25s;
+  }
+  table tbody tr td .fa-times:hover {
+    color: #28a745;
+  }

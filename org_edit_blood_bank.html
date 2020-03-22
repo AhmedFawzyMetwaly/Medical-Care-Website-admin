@@ -23,6 +23,7 @@
         text-align: center;
       }
     }
+
     input[disabled] {
       border: 0;
       margin-left: 1px;
@@ -222,7 +223,42 @@
           <h2 class="text-center">Edit Blood Bank</h2>
           <hr>
           <!------------------------------- Edit Department ------------------------------->
-
+          <table class="table table-striped text-center">
+            <thead>
+              <tr>
+                <th scope="col">Blood Type</th>
+                <th scope="col">Cases</th>
+                <th scope="col">Blood Type</th>
+                <th scope="col">Cases</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>O-</td>
+                <td>65</td>
+                <td>O+</td>
+                <td>36</td>
+              </tr>
+              <tr>
+                <td>A-</td>
+                <td>50</td>
+                <td>A+</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>B-</td>
+                <td>10</td>
+                <td>B+</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>AB-</td>
+                <td>8</td>
+                <td>AB+</td>
+                <td>6</td>
+              </tr>
+            </tbody>
+          </table>
           <!------------------------------- Start Of Form ------------------------------->
           <form method="" action="" class="ValidationForm" enctype="multipart/form-data">
             <div class="row">
@@ -388,8 +424,7 @@
                     <span class="input-group-text"> <i class="fas fa-tint"></i> </span>
                   </div>
                   <input value="O-" disabled class="text-center">
-                  <input name="O-" class="phone-number form-control" placeholder="Number of added cases" type="number"
-                    min="0">
+                  <input name="O-" class="phone-number form-control" placeholder="Add or sub cases" type="number">
                 </div>
                 <div class="alert alert-danger custom-alert d-none">
                   Error Message
@@ -402,8 +437,7 @@
                     <span class="input-group-text"> <i class="fas fa-tint"></i> </span>
                   </div>
                   <input value="O+" disabled class="text-center">
-                  <input name="O+" class="phone-number form-control" placeholder="Number of added cases" type="number"
-                    min="0">
+                  <input name="O+" class="phone-number form-control" placeholder="Add or sub cases" type="number">
                 </div>
                 <div class="alert alert-danger custom-alert d-none">
                   Error Message
@@ -416,8 +450,7 @@
                     <span class="input-group-text"> <i class="fas fa-tint"></i> </span>
                   </div>
                   <input value="A-" disabled class="text-center">
-                  <input name="A-" class="phone-number form-control" placeholder="Number of added cases" type="number"
-                    min="0">
+                  <input name="A-" class="phone-number form-control" placeholder="Add or sub cases" type="number">
                 </div>
                 <div class="alert alert-danger custom-alert d-none">
                   Error Message
@@ -430,8 +463,7 @@
                     <span class="input-group-text"> <i class="fas fa-tint"></i> </span>
                   </div>
                   <input value="A+" disabled class="text-center">
-                  <input name="A+" class="phone-number form-control" placeholder="Number of added cases" type="number"
-                    min="0">
+                  <input name="A+" class="phone-number form-control" placeholder="Add or sub cases" type="number">
                 </div>
                 <div class="alert alert-danger custom-alert d-none">
                   Error Message
@@ -444,8 +476,7 @@
                     <span class="input-group-text"> <i class="fas fa-tint"></i> </span>
                   </div>
                   <input value="B-" disabled class="text-center">
-                  <input name="B-" class="phone-number form-control" placeholder="Number of added cases" type="number"
-                    min="0">
+                  <input name="B-" class="phone-number form-control" placeholder="Add or sub cases" type="number">
                 </div>
                 <div class="alert alert-danger custom-alert d-none">
                   Error Message
@@ -458,8 +489,7 @@
                     <span class="input-group-text"> <i class="fas fa-tint"></i> </span>
                   </div>
                   <input value="B+" disabled class="text-center">
-                  <input name="B+" class="phone-number form-control" placeholder="Number of added cases" type="number"
-                    min="0">
+                  <input name="B+" class="phone-number form-control" placeholder="Add or sub cases" type="number">
                 </div>
                 <div class="alert alert-danger custom-alert d-none">
                   Error Message
@@ -472,8 +502,7 @@
                     <span class="input-group-text"> <i class="fas fa-tint"></i> </span>
                   </div>
                   <input value="AB-" disabled class="text-center">
-                  <input name="AB-" class="phone-number form-control" placeholder="Number of added cases" type="number"
-                    min="0">
+                  <input name="AB-" class="phone-number form-control" placeholder="Add or sub cases" type="number">
                 </div>
                 <div class="alert alert-danger custom-alert d-none">
                   Error Message
@@ -486,8 +515,7 @@
                     <span class="input-group-text"> <i class="fas fa-tint"></i> </span>
                   </div>
                   <input value="AB+" disabled class="text-center">
-                  <input name="AB+" class="phone-number form-control" placeholder="Number of added cases" type="number"
-                    min="0">
+                  <input name="AB+" class="phone-number form-control" placeholder="Add or sub cases" type="number">
                 </div>
                 <div class="alert alert-danger custom-alert d-none">
                   Error Message
